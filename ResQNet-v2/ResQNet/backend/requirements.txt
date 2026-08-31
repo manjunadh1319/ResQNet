@@ -1,0 +1,19 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic>=2.9,<3.0.0
+sqlalchemy==2.0.36
+python-dotenv==1.0.1
+langgraph==0.2.62
+langchain==0.3.14
+langchain-groq==0.2.3
+groq==0.15.0
+python-multipart==0.0.20
+
+# Optional — only needed if you switch DATABASE_URL to Postgres for a
+# persistent database on Render/Railway (see README > Deployment).
+
+
+# Streamlit edition (streamlit_app.py) — only needed if deploying to
+# Streamlit Community Cloud instead of / in addition to the FastAPI + React app.
+streamlit==1.40.2
+plotly==5.24.1
